@@ -1,4 +1,5 @@
 echo "copying"
-cp .emacs ~/.emacs;
-cp .tmux.conf ~/.tmux.conf;
+git clone https://github.com/technomancy/better-defaults.git
+cp .tmux ~/.tmux;
+cp init.el ~/.emacs.d/init.el;
 echo "done"
