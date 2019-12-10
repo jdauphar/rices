@@ -1,0 +1,8 @@
+Debugger entered--Lisp error: (file-missing "Cannot open load file" "No such file or directory" "better-defaults")
+  require(better-defaults)
+  eval-buffer(#<buffer  *load*> nil "/Users/jdauphar/.emacs.d/init.el" nil t)  ; Reading at buffer position 94
+  load-with-code-conversion("/Users/jdauphar/.emacs.d/init.el" "/Users/jdauphar/.emacs.d/init.el" t t)
+  load("/Users/jdauphar/.emacs.d/init" t t)
+  #f(compiled-function () #<bytecode 0x4009f269>)()
+  command-line()
+  normal-top-level()

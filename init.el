@@ -1,4 +1,4 @@
-(add-to-list 'load-path "/home/jack/.emacs.d/.better-defaults")   
+(add-to-list 'load-path "~/.emacs.d/.better-defaults")   
 (require 'better-defaults)
 (package-initialize)
 (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/pac\
